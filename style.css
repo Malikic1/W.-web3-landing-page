@@ -1,0 +1,84 @@
+.fs-1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+}
+.navbar-toggler {
+  font-size: 1.4rem;
+  color: transparent;
+  border-style: none;
+}
+.navbar-collapse:focus {
+  border: transparent !important;
+}
+.img {
+  background-image: url("image.png");
+  height: 20rem;
+  background-size: contain;
+}
+p,
+.col-grey {
+  color: gray;
+}
+.image {
+  width: 10rem;
+  height: 12rem;
+}
+.txt {
+  width: auto;
+}
+.sec1 {
+  width: calc(100% - 18rem);
+}
+.sec2 {
+  width: 18rem;
+  background-color: #00000e;
+}
+.fs-1,
+.footer,
+.w1 h1,
+.h5 {
+  color: #00000e;
+}
+.w1 {
+  width: 12rem;
+}
+.w2 {
+  width: 20rem;
+}
+@media screen and (max-width: 640px) {
+  .d-flex {
+    flex-direction: column;
+  }
+  .sec1,
+  .col-3,
+  .sec2 {
+    width: 100% !important;
+  }
+  .w1 {
+    width: 16rem;
+  }
+  .w2 {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .g-0 {
+    display: flex;
+  }
+  .txt {
+    font-size: 1.2rem;
+    width: 12rem;
+  }
+  .image {
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 398px) {
+  .image {
+    width: 8rem;
+    height: 10rem;
+    margin-top: 1rem;
+  }
+  .txt {
+    font-size: 1rem;
+  }
+}
